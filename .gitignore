@@ -1,2 +1,7 @@
 # Git ignored paths
 # https://git-scm.com/docs/gitignore
+
+# Gradle
+.gradle/
+.kotlin/
+build/

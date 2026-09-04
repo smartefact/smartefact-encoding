@@ -42,4 +42,6 @@ include(
     // Common
     "smartefact-encoding-core",
     "smartefact-encoding-testing",
+    // Encodings
+    "smartefact-encoding-hexadecimal",
 )

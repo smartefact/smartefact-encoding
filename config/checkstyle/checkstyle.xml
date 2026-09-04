@@ -122,7 +122,9 @@
         <module name="UnnecessarySemicolonAfterTypeMemberDeclaration"/>
         <module name="UnnecessarySemicolonInEnumeration"/>
         <module name="UnnecessarySemicolonInTryWithResources"/>
-        <module name="UnusedLocalVariable"/>
+        <module name="UnusedLocalVariable">
+            <property name="jdkVersion" value="21"/>
+        </module>
 
         <!-- Imports -->
         <module name="AvoidStarImport"/>

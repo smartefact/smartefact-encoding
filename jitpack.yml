@@ -1,0 +1,5 @@
+# JitPack configuration
+# Reference: https://docs.jitpack.io/building/
+
+jdk:
+  - openjdk21

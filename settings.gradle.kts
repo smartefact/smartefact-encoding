@@ -3,6 +3,7 @@
 rootProject.name = "smartefact-encoding"
 
 pluginManagement {
+    includeBuild("gradle/conventions")
     repositories {
         maven("https://jitpack.io") {
             name = "JitPack"

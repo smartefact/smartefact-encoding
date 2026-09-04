@@ -1,0 +1,14 @@
+# GitHub workflow - CI
+
+name: CI
+
+on:
+
+  push:
+    branches: ["*"]
+
+jobs:
+
+  workflow-ci:
+    name: CI workflow
+    uses: smartefact/smartefact-github-workflows/.github/workflows/ci.yml@v1
